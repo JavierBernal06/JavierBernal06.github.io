@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Francisco Javier Bernal Calvo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f7f6;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        h1 { margin: 0; font-size: 2.5em; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px; }
+        h3 { color: #2980b9; }
+        .section {
+            background: white;
+            padding: 20px 30px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        ul { padding-left: 20px; }
+        .skills-grid {
+            display: flex;
+            gap: 20px;
+        }
+        .skills-col { flex: 1; }
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Francisco Javier Bernal Calvo</h1>
+        <p style="font-size: 1.2em;">Desarrollador Backend / Ingeniero en Sistemas</p>
+    </header>
+
+    <div class="section">
+        <h2>Descripción</h2>
+        <p><strong>¿Quién eres?</strong><br>
+        Soy un estudiante de Ingeniería en Sistemas apasionado por el desarrollo de software, la administración de bases de datos y el soporte técnico. Además de mi formación académica, cuento con experiencia práctica operando mi propio negocio de mantenimiento de hardware, Compufix HMO.</p>
+        
+        <p><strong>¿Qué puedes hacer?</strong><br>
+        Puedo desarrollar aplicaciones backend robustas y APIs RESTful utilizando Python y el framework Flask. Tengo experiencia en el manejo de bases de datos relacionales, despliegue de contenedores y configuración de entornos virtualizados. También poseo habilidades sólidas en diagnóstico, reparación y mantenimiento de equipos de cómputo y consolas de videojuegos.</p>
+    </div>
+
+    <div class="section">
+        <h2>Educación</h2>
+        <ul>
+            <li><strong>Ingeniería en Sistemas</strong> - Universidad de Sonora (UNISON), Hermosillo, Sonora.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Habilidades</h2>
+        <div class="skills-grid">
+            <div class="skills-col">
+                <h3>Tecnologías que manejo mejor:</h3>
+                <ul>
+                    <li><strong>Lenguajes:</strong> Python, C++, SQL.</li>
+                    <li><strong>Frameworks:</strong> Flask.</li>
+                    <li><strong>Bases de Datos:</strong> PostgreSQL, MySQL, SQLite.</li>
+                    <li><strong>Infraestructura/Herramientas:</strong> Docker, VirtualBox (Ubuntu Server), Postman.</li>
+                    <li><strong>Diseño:</strong> Canva, Figma.</li>
+                </ul>
+            </div>
+            <div class="skills-col">
+                <h3>Habilidades tecnológicas y sociales:</h3>
+                <ul>
+                    <li>Mantenimiento preventivo y correctivo de hardware (Laptops, PCs, Consolas).</li>
+                    <li>Resolución analítica de problemas.</li>
+                    <li>Comunicación efectiva con clientes para levantamiento de requerimientos.</li>
+                    <li>Trabajo colaborativo en equipos de desarrollo.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Proyectos</h2>
+        <p><em>(Sustituye el "#" por el enlace a tus repositorios en GitHub de la Tarea 2)</em></p>
+        <ul>
+            <li><a href="#">API REST de Inventario de Productos</a>: Implementación de endpoints CRUD con integración a SQLite y pruebas en Postman.</li>
+            <li><a href="#">API de Personajes de Videojuegos</a>: Aplicación Full-stack que conecta entidades de personajes y habilidades con una interfaz frontend en HTML.</li>
+            <li><a href="#">Sistema de Monitoreo de Sensores IoT</a>: Endpoints en Flask para la recolección de datos, almacenamiento en CSV y cálculo de resúmenes estadísticos.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Blogs (Proyectos sin repositorio)</h2>
+        
+        <h3>Sistema CRUD de Administración de Materiales de una Minería</h3>
+        <ul>
+            <li><strong>a. Descripción:</strong> Un sistema de base de datos diseñado para gestionar y administrar eficientemente el inventario de materiales utilizados en operaciones mineras, integrando un módulo de autenticación de usuarios.</li>
+            <li><strong>b. Requerimientos del cliente:</strong> El cliente necesitaba una plataforma segura que permitiera el control estricto de entradas y salidas de recursos, registro de usuarios autorizados, y una interfaz que facilitara la actualización constante del stock de materiales pesados.</li>
+            <li><strong>c. ¿Cómo se diseñó la solución?:</strong> Se propuso una arquitectura cliente-servidor. El diseño se centró en una base de datos relacional robusta que garantizara la integridad referencial entre los usuarios, los almacenes y el catálogo de materiales.</li>
+            <li><strong>d. ¿Cómo se implementó la solución?:</strong> Se desarrolló el backend configurando rutas para el manejo de sesiones de usuario y operaciones CRUD (Crear, Leer, Actualizar, Eliminar) directas sobre la base de datos relacional para gestionar el inventario en tiempo real.</li>
+            <li><strong>e. ¿Cuál fue el resultado?:</strong> Se entregó una plataforma funcional que digitaliza el control de inventarios de la mina. Esto permite a los administradores tener trazabilidad de los materiales, reduciendo errores humanos en el conteo y asegurando que los recursos estén disponibles cuando se requieren en la operación.</li>
+        </ul>
+    </div>
+
+</body>
+</html>
